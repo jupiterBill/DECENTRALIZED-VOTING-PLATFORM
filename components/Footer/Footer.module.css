@@ -1,0 +1,21 @@
+.Footer{
+    position: absolute;
+    bottom: 0;
+    position: absolute; /* Takes the box out of the document flow */
+    left: 50%; /* Positions the left of the box at 50% of the container's width */
+    transform: translate(-50%, -50%); /* Centers the box by moving it back by half of its own width and height */
+}
+.Footer_Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:3rem;
+}
+.footer_text{
+ margin-top: 2%;
+}
+.FooterLogo_image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}

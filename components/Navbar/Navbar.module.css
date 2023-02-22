@@ -1,0 +1,25 @@
+.Navbar{
+    width: 100%;
+    padding-block: 0;
+    position: relative;
+    z-index: 111111111;
+}
+.Navbar_container{
+   display: grid;
+   grid-template-columns: repeat(10,1fr);
+   gap: 20rem;
+   padding: 1rem;
+}
+.Navbar_left_side_container{
+    grid-column-start: 1/5;
+    padding: 0.5rem;
+    display: flex;
+    gap:12rem;
+}
+.logo{
+   margin-top: -20px;
+}
+.Navbar_right_side_container{
+    display: flex;
+    gap:12rem;
+}
